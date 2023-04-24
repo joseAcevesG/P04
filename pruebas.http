@@ -1,0 +1,11 @@
+
+###
+GET http://localhost:3000/products
+
+###
+# get id
+GET http://localhost:3000/products/ab919a83-054b-4563-928f-f99520f9bb82
+
+
+###
+POST http://localhost:3000/products/cart

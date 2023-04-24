@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e237175aec.js" crossorigin="anonymous"></script>
+
+  <!-------------------------------------------------------MODAL---------------------------------------------->
+  <!-- Modal Body -->
+  <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+  <div class="modal fade" id="primerModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitleId">Iniciar Sesion</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--BODY DEL MODAL-->
+          <form>
+            <label for="mail">Correo.</label><br>
+            <div class="input-group">
+              <input id="mail" type="email" class="form-control" placeholder="Ingresa tu correo" required>
+              <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+            </div>
+            <br><label for="pass">Contraseña.</label><br>
+            <div class="input-group">
+              <input id="pass" type="password" class="form-control" placeholder="Ingresa tu contraseña" required>
+              <span class="input-group-text"><i class="fa-solid fa-key"></i></span>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+          
+        </div>
+
+        <!--FOOTER-->
+        <div class="modal-footer justify-content-center">
+          No tienes cuenta? 
+          <a class="navbar-brand" href="#" data-bs-toggle="modal" data-bs-target="#segundoModal" role=”button” style="color: blue;"> 
+            <u>Registrate aqui</u>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+
+  <!-------------------------------------------------------MODAL 2---------------------------------------------->
+  <!-- Modal Body -->
+  <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+  <div class="modal fade" id="segundoModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitleId">Registrarse</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--BODY DEL MODAL-->
+          <form>
+            <div class="row" style="margin-top: 10px;">
+              <div class="input-group col">
+                <input type="text" class="form-control" placeholder="Nombre(s)" required>
+              </div>
+              <div class="input-group col">
+                <input type="text" class="form-control" placeholder="Apellidos" required>
+              </div>
+            </div>
+            
+
+            <div class="input-group justify-content-center" style="margin-top: 10px;">
+              <input type="text" class="form-control" placeholder="Tu correo" required>
+            </div>
+            
+            <div class="input-group justify-content-center" style="margin-top: 10px;">
+              <input type="text" class="form-control" placeholder="Contraseña" required>
+            </div>
+            
+            <div class="input-group justify-content-center" style="margin-top: 10px;">
+              <input type="text" class="form-control" placeholder="Confirmar contraseña" required>
+            </div>
+          </form>
+          
+        </div>
+        <!--FOOTER-->
+        <div class="modal-footer justify-content-end">
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Registrarse</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</head>
+
+<body>
+  <header>
+    <!--------------------------------------------------------AQUI VA EL NAVBAR----------------------------------------------->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          
+  
+          <!--COLAPLSABLE-->
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!--PRIMER DIV-->
+          <div class="collapse navbar-collapse" id="collapsibleNavId" style="width: 33%;">
+  
+            <!--LOGO-->
+            <a class="navbar-brand" href="P01_index.html">
+              <img src="imagenes/logo2.png" alt="Avatar Logo" style="width:50px;"> 
+            </a>
+  
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+  
+              <li class="nav-item">
+                <a class="nav-link active" href="P01_index.html" aria-current="page">Inicio<span class="visually-hidden">(current)</span></a>
+              </li>
+  
+              <li class="nav-item active">
+                <a class="nav-link" href="P01_about_us.html">Sobre nosotros</a>
+              </li>
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="P01_cat_A.html">Categoria A</a>
+                  <a class="dropdown-item" href="P01_cat_B.html">Categoria B</a>
+                </div>
+              </li>
+  
+            </ul>
+          </div>
+  
+  
+          <!--BARRA SEARCH-->
+          <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavId" style="width: 33%;">
+            <form class="d-flex my-2 my-lg-0 ">
+              <input class="form-control me-sm-2" type="text" placeholder="Buscar productos...">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </div>
+  
+  
+          <!--INGRESAR Y CARRO DE COMPRAS-->
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId" style="width: 33%;">
+            <a class="navbar-brand" href="#" data-bs-toggle="modal" data-bs-target="#primerModal"  role=”button”>
+              <i class="fa-solid fa-user"></i> 
+              Ingresar
+            </a>
+            <a class="navbar-brand" href="P01_cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </div>
+  
+        </div>
+      </nav>
+  </header>
+  <main>
+
+  
+  <div style="margin: 2%; display: flex; flex-direction: row; flex-wrap: wrap; align-content: flex-start;">
+    
+    <!--PRODUCTOS-->
+    <div  class="col-sm-8 col-12">
+      <div  style="margin: 5px;">
+        <!--Primer-->
+        <div class="media border p-3" style="min-height: 200px;">
+          <img src="imagenes/mercedes.webp" alt="John Doe" class="ml-3 mt-3" style="width:120px; float: right;">
+          <div class="media-body ">
+            <h4>Producto A  <a name="" id="" class="btn btn-danger" href="#" role="button"><i class="fa-solid fa-trash"></i></a></h4>
+          </div>
+          <br>
+          <form style="width: 30%;" >
+            <div class="input-group">
+              <span class="input-group-text" style="width: 35%; min-width: 60;">Cantidad: </span>
+              <input style="background-color: white;" type="text" class="form-control" placeholder="2" disabled>
+              
+              <button type="button" name="" id="" class="btn btn-primary"><i class="fa-solid fa-pen-to-square" style="color: #ffffff;"></i></button>
+              
+            </div>
+            
+          
+            <div class="input-group">
+              <span class="input-group-text" style="width: 35%;">Precio: </span>
+              <input style="background-color: white;" type="text" class="form-control" placeholder="20.00" disabled>
+              <span class="input-group-text">MXN:</span>
+            </div>
+          </form>
+          
+        </div>
+        <!--Segundo-->
+        <div class="media border p-3" style="min-height: 200px;">
+          <img src="imagenes/mclaren.jpg" alt="John Doe" class="ml-3 mt-3" style="width:120px; float: right;">
+          <div class="media-body">
+            <h4>Producto B  <a name="" id="" class="btn btn-danger" href="#" role="button"><i class="fa-solid fa-trash"></i></a></h4>
+          </div>
+          <br>
+
+          <form style="width: 30%;" >
+            <div class="input-group">
+              <span class="input-group-text" style="width: 35%; min-width: 60;">Cantidad: </span>
+              <input style="background-color: white;" type="text" class="form-control" placeholder="5" disabled>
+            </div>
+          
+            <div class="input-group">
+              <span class="input-group-text" style="width: 35%;">Precio: </span>
+              <input style="background-color: white;" type="text" class="form-control" placeholder="30.00" disabled>
+              <span class="input-group-text">MXN:</span>
+            </div>
+          </form>
+          
+        </div>
+
+      </div>
+    </div>
+
+    <!--TOTAL-->
+    <div  class="col-sm-4 col-12">
+      <div  style="margin: 5px;">
+        <!--Aqui-->
+        <div class="card" style="background-color: rgb(222, 222, 222);">
+          <div class="card-body">
+            <h4 class="card-title">Total de Compra:</h4>
+            <p class="card-text"><b>Producto A:</b> 2 x 20.00 MXN</p>
+            <p class="card-text"><b>Producto B:</b> 2 x 20.00 MXN</p>
+            <p class="card-text"><b>Costo de Envio:</b> 60.00 MXN</p>
+            <h5>Total: 250.00 MXN</h5>
+            <div class="modal-footer justify-content-center" style="margin: 5px 0;">
+              <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" style="width: 50%;">Pagar</button>
+            </div>
+            <div class="modal-footer justify-content-center" style="margin: 5px 0;">
+              <button type="submit" class="btn btn-danger" data-bs-dismiss="modal" style="width: 50%;">Cancelar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

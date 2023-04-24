@@ -1,0 +1,62 @@
+[
+    {
+        "uuid": "ab919a83-054b-4563-928f-f99520f9bb82",
+        "title": "Red Bull Racing Chamarra",
+        "description": "Chaqueta resistente al agua del equipo Oracle Red Bull Racing 2023",
+        "imageURL": "https://images.footballfanatics.com/red-bull/oracle-red-bull-racing-2023-team-water-resistant-jacket_ss4_p-13334222+u-dnk1zfc1r60d6y5s02yh+v314ccda2493d4de586e2da49d35d6399.jpg?_hv=2&w=900",
+        "unit": "Pieza",
+        "stock": 10,
+        "pricePerUnit": 180,
+        "category": "Chamarra"
+    },
+    {
+        "uuid": "ab919a83-054b-4563-928f-f99520f9bb83",
+        "title": "Mercedes AMG Petronas F1 Chaqueta",
+        "description": "Chaqueta impermeable del equipo Mercedes AMG Petronas F1 2023",
+        "imageURL": "https://images.footballfanatics.com/mercedes-amg-petronas-f1-team/mercedesamg-petronas-f1-2023-team-rain-jacket_ss4_p-13368381+u-1ch5hmirqz7v0quzth4j+ve9d30ccfaeae4a84b1b0597554a202b5.jpg?_hv=2&w=900",
+        "unit": "Pieza",
+        "stock": 20,
+        "pricePerUnit": 285,
+        "category": "ayuda"
+    },
+    {
+        "uuid": "ab919a83-054b-4563-928f-f99520f9bb84",
+        "title": "Ferrari Chaqueta",
+        "description": "Chaqueta Softshell del equipo Scuderia Ferrari 2023",
+        "imageURL": "https://images.footballfanatics.com/scuderia-ferrari/scuderia-ferrari-2023-team-softshell-jacket_ss4_p-13368388+u-1697ehkh6odvy4fw2s3h+v0ca11877b48b48afa306d16c0a65476d.jpg?_hv=2&w=900",
+        "unit": "Pieza",
+        "stock": 30,
+        "pricePerUnit": 243,
+        "category": "Chaqueta"
+    },
+    {
+        "uuid": "ab919a83-054b-4563-928f-f99520f9bb84",
+        "title": "Aston Martin Chubasquero",
+        "description": "Chubasquero oficial del equipo Aston Martin Aramco Cognizant F1 2023",
+        "imageURL": "https://images.footballfanatics.com/aston-martin/aston-martin-aramcocognizant-f1-2023-official-team-rain-jacket_ss4_p-13366422+u1eaq0h0g6y70vllshb0u+v-57f2b6bc02904e82a9dd770be6374d49.jpg?_hv=2&w=900",
+        "unit": "Pieza",
+        "stock": 40,
+        "pricePerUnit": 293,
+        "category": "Chubasquero"
+    },
+    {
+        "uuid": "ab919a83-054b-4563-928f-f99520f9bb84",
+        "title": "McLaren Chaleco",
+        "description": "Chaleco del equipo McLaren 2023",
+        "imageURL": "https://images.footballfanatics.com/mclaren-f1-team/mclaren-2023-teamgilet_ss4_p-13334178+u-stnqwkzw8tr5myiyaru6+vb5c8fa31670c487587ec5cec6f3918b5.jpg?_hv=2&w=900",
+        "unit": "Pieza",
+        "stock": 50,
+        "pricePerUnit": 180,
+        "category": "Chaleco"
+    },
+    {
+        "uuid": "ab919a83-054b-4563-928f-f99520f9bb84",
+        "title": "Red Bull Racing Sudadera",
+        "description": "Sudadera con capucha del equipo Oracle Red Bull Racing 2023",
+        "imageURL": "https://images.footballfanatics.com/red-bull/oracle-red-bull-racing-2023-team-hoodie_ss4_p-13334189+u-1f6s7a3d10pyx68byu99+v94f7a82494884e649ad854110b4bd856.jpg?_hv=2&w=900",
+        "unit": "Pieza",
+        "stock": 11,
+        "pricePerUnit": 115,
+        "category": "Sudadera"
+    }
+]
