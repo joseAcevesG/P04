@@ -27,7 +27,7 @@ function pagination(numero){
             let productos = JSON.parse(xhr.response);
             //(numero -1)*4 + i
             for(let i = 0; i<4; i++){
-              document.getElementById("CardsAqui").insertAdjacentText('beforeend', crearDivCards(productos[(numero - 1) * 4 + i]));
+              document.getElementById("CardsAqui").insertAdjacentHTML('beforeend', crearDivCards(productos[(numero - 1) * 4 + i]));
             }
         }
     }
