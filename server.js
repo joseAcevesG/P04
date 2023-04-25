@@ -47,4 +47,9 @@ app.get('/products/cart', (req, res) => {
     res.sendFile(path.join(__dirname, "./app/views/shopping_cart.html"));
 });
 
+
+app.get('/carrito.js', (req, res) => {
+    res.sendFile(path.join(__dirname, "./app/views/shopping_cart.html"));
+});
+
 app.use(router);

@@ -58,5 +58,15 @@
         "stock": 11,
         "pricePerUnit": 115,
         "category": "Sudadera"
+    },
+    {
+        "uuid": "ab919a83-054b-4563-928f-f99520f9bb95",
+        "title": "Producto 7",
+        "description": "Sudadera con capucha del equipo Oracle Red Bull Racing 2023",
+        "imageURL": "https://images.footballfanatics.com/red-bull/oracle-red-bull-racing-2023-team-hoodie_ss4_p-13334189+u-1f6s7a3d10pyx68byu99+v94f7a82494884e649ad854110b4bd856.jpg?_hv=2&w=900",
+        "unit": "Pieza",
+        "stock": 11,
+        "pricePerUnit": 115,
+        "category": "Sudadera"
     }
 ]
