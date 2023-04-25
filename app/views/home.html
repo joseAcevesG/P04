@@ -127,11 +127,11 @@
           <div class="form-group">
             <label for="Quantity">Cantidad</label>
               <div class="input-group">
-                  <input type="number" name="Quantity" id="Quantity" class="form-control" value="1">                              
+                  <input id="cantidad" type="number" name="Quantity" id="Quantity" class="form-control" value="1">                              
                   <input type="text" name="productUuid" id="addToCart" class="d-none" aria-describedby="helpId">
               </div>
               <div class="modal-footer">
-                <button id="ConfirmAdd" type="button" class="btn btn-success" data-bs-dismiss="modal">Agregar</button>
+                <button id="ConfirmAdd" type="button" class="btn btn-success" data-bs-dismiss="modal" onclick="botonAgregar(this)">Agregar</button>
                 <button id="CancelAdd" type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
               </div>
           </div>
@@ -337,19 +337,9 @@
     <!-----------------------------------------------------PAGE NAVEGATION------------------------------------------------>
     <nav aria-label="Page navigation" style="margin: 10px;">
       <ul class="pagination   justify-content-center">
-        <li class="page-item disabled">
-          <a class="page-link" href="#" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-        <li class="page-item active" aria-current="page"><a class="page-link" href="#" onclick="pagination(1)">1</a></li>
-        <li class="page-item"><a class="page-link" href="#" onclick="pagination(2)">2</a></li>
-        <li class="page-item"><a class="page-link" href="#" onclick="pagination(3)">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
-        </li>
+        <li class="page-item"><a class="page-link"  onclick="pagination(1)">1</a></li>
+        <li class="page-item"><a class="page-link"  onclick="pagination(2)">2</a></li>
+        <li class="page-item"><a class="page-link"  onclick="pagination(3)">3</a></li>
       </ul>
     </nav>
     
