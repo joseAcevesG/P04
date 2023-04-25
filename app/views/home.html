@@ -12,7 +12,7 @@
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   
   <script src="https://kit.fontawesome.com/e237175aec.js" crossorigin="anonymous"></script>
-  <script defer src="carrito.js" type="module"></script>
+  <script defer src="carrito.js"></script>
 
 
 
@@ -154,7 +154,7 @@
 <body>
   <header>
     <!--------------------------------------------------------AQUI VA EL NAVBAR----------------------------------------------->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light"> <!--fixed-top-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
       <div class="container-fluid">
         
 
@@ -209,7 +209,7 @@
             <i class="fa-solid fa-user"></i> 
             Ingresar
           </a>
-          <a class="navbar-brand" href="http://localhost:3000/products/cart">
+          <a class="navbar-brand" href="shopping_cart.html">
             <i class="fa-solid fa-cart-shopping"></i>
           </a>
         </div>
@@ -264,16 +264,16 @@
       
 
 
-     
+
     <!---------------------------------------------------------------CARDS--------------------------------------------->
     <div id="CardsAqui" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; align-content: flex-start;">
-      <!--
+
       <div class="card" style="width:350px; margin: 10px;">
         <img class="card-img-top" src="imagenes/mercedes.webp" alt="Card image">
         <div class="card-body">
           <h4 class="card-title">Mercedes AMG Petronas F1</h4>
           <p class="card-text">Un favorito de siempre que funciona en cualquier situación. Consigue el estilo de un verdadero profesional con este polo con la marca de equipo y estarás listo para cualquier cosa.</p>
-          <-- Modal trigger button --
+          <!-- Modal trigger button -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
             Agregar al carrito
           </button>
@@ -331,9 +331,8 @@
         </div>
       </div>
 
-      -->
+
     </div>
-    
 
     <!-----------------------------------------------------PAGE NAVEGATION------------------------------------------------>
     <nav aria-label="Page navigation" style="margin: 10px;">
@@ -343,7 +342,7 @@
             <span aria-hidden="true">&laquo;</span>
           </a>
         </li>
-        <li class="page-item active" aria-current="page"><a class="page-link" href="#" onclick="crearDivCards(1)">1</a></li>
+        <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#">2</a></li>
         <li class="page-item"><a class="page-link" href="#">3</a></li>
         <li class="page-item">

@@ -17,12 +17,12 @@ const port = 3000;
 const cors = require('cors');
 
 
-app.use(express.static(__dirname + '/views'));
-app.use(express.static('public'));
 app.use(cors({
     methods:['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH']
 }));
 app.use(express.json());
+app.use(express.static(path.join(__dirname, 'app', 'views')));
+
 
 
 // const __filename = url.fileURLToPath(import.meta.url);
