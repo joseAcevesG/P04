@@ -14,21 +14,26 @@ function crearDivCards(producto){
   </div>`
 }
 
-let url = 'http://localhost:3000/'
+
 function pagination(numero){
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', url+'products');
+    xhr.open('GET', 'http://localhost:3000/products');
     xhr.send();
     xhr.onload = function () {
         if(xhr.status != 200){
             alert("error");
         } else {
+            document.getElementById("CardsAqui").innerHTML="";
             let productos = JSON.parse(xhr.response);
             //(numero -1)*4 + i
             for(let i = 0; i<4; i++){
-                document.getElementById("CardsAqui").insertAdjacentText('beforeend', crearDivCards(productos[(numero - 1) * 4 + i]));
+              document.getElementById("CardsAqui").insertAdjacentText('beforeend', crearDivCards(productos[(numero - 1) * 4 + i]));
             }
         }
     }
 
 }
+pagination(1);
+
+// exports.crearDivCards = crearDivCards;
+// exports.pagination = pagination;
